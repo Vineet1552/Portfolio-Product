@@ -1,0 +1,58 @@
+.projectDetails {
+    display: flex;
+    width: 100%;
+    max-width: 68rem;
+    margin: 0 auto 7rem auto;
+    font-family: sans-serif;
+}
+
+#projectLeft {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgProject {
+    width: 80%;
+    border-radius: 1rem;
+}
+
+#projectRight {
+    flex: 1;
+}
+
+#projectRight h2 {
+    color: #3182CE;
+    text-align: center;
+    margin-right: 3rem;
+    margin: 0 1rem 1rem 1rem;
+}
+
+#projectRight ul li {
+    margin: 1rem;
+}
+
+#but-github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    
+}
+
+#project-Link-but {
+    padding: 1rem 2rem;
+    color: #121212;
+    background-color: white;
+    border-radius: 1rem;
+    transition: background-color 1s, color 1s;
+    text-decoration: none;
+}
+
+#project-Link-but:hover {
+    color: white;
+    background-color: #121212;
+    border: 1px solid white;
+
+}

@@ -1,0 +1,42 @@
+.companyRoleComp {
+    margin-bottom: 2.5rem;
+}
+
+#company {
+    width: 100%;
+    max-width: 67rem;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+}
+
+
+#companyrole-details {
+    display: flex;
+    width: 100%;
+    max-width: 67rem;
+    margin: 0.7rem auto;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+
+#companyrole {
+    color: #3182CE;
+    font-size: 1.2rem;
+}
+
+#companyyear {
+    color: #3182CE;
+}
+
+#companyresponsibilitiesdiv {
+    width: 100%;
+    max-width: 67rem;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+#companyresponsibilities li {
+    margin: 0.2rem;
+}

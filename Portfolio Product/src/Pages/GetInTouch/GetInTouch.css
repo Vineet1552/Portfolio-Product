@@ -1,0 +1,110 @@
+.container6 {
+    color: white;
+    width: 100%;
+    max-width: 74rem;
+    margin: 0 auto 10rem auto;
+    font-family: sans-serif;
+}
+
+#getInTouchHeadingContainer {
+    display: flex;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+#getintouchHeading {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-right: 1rem;
+    font-family: sans-serif;
+    transform: translateX(-100%);
+    animation: slideIn 2s forwards;
+}
+@keyframes slideIn {
+    to {
+        transform: translateX(0);
+    }
+}
+
+.line {
+    flex-grow: 1;
+    height: 0.3rem;
+    background-color: white;
+}
+
+.GetInTouchContent {
+    display: flex;
+}
+
+#mainHead {
+    color: #3182CE;
+    margin: 0 0 1.2rem 0;
+}
+
+#GetInTouchContentLeft {
+    flex: 1;
+    padding: 2rem;
+}
+
+#getInTouchLogoUl {
+    display: flex;
+}
+
+#getInTouchLogoUlLi {
+    list-style: none;
+    padding: 0.5rem 1rem 0.5rem 0;
+}
+
+#getInTouchLogoUlLi .fa-icon {
+    font-size: 1.5rem;
+}
+
+#GetInTouchContentRight {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; 
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 20rem;
+    padding: 1rem;
+    box-sizing: border-box; 
+    border-radius: 0.5rem; 
+}
+
+#formInput {
+    color: white;
+    height: 2.5rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    padding: 1.5rem; 
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+#formInputMessage {
+    color: white;
+    width: 100%; 
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    padding: 1.5rem; 
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+#submitbut {
+    color: white;
+    height: 2.5rem;
+    width: 100%;
+    border-radius: 3rem;
+    border: 1px solid white;
+    background-color: #3182CE;
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+.skillbar {
+    font-family: sans-serif;
+    width: 100%;
+    max-width: 67rem;
+    margin: 0 auto 3rem auto;
+    height: 7rem;
+    background-color: #18191E;
+    color: white;
+    padding: 1rem;
+    /* border: 2px solid white; */
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+#heading {
+    color: white;
+    background-color: #18191E;
+    font-size: 1.6rem;
+    padding: 0.2rem;
+}
+
+#skillname {
+    width: 100%;
+    max-width: 60rem;
+    background-color: #18191E;
+    display: flex;
+    overflow: hidden;
+}
+
+#skillname li {
+    padding: 1rem 2rem;    
+    background-color: #121212;
+    list-style: none;
+    color: white;
+    border-radius: 0.5rem;
+    margin: 1rem 2rem;
+
+}

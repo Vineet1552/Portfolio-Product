@@ -1,0 +1,90 @@
+/* MainBar.css */
+
+.container1 {
+    color: white;
+    width: 100%;
+    max-width: 75rem;
+    margin: 0 auto;
+    display: flex;
+}
+
+#contentSide1 {
+    flex: 1;
+    padding: 10px;
+    font-size: 3.8rem;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+
+#name, #passionate {
+    color: #3182CE;
+}
+
+
+#slide-in-text {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: #575369;
+    transform: translateX(-100%);
+    animation: slideIn 2s forwards;
+}
+@keyframes slideIn {
+    to {
+        transform: translateX(0);
+    }
+}
+
+#contentSide2 {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contentSide2 img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    
+
+}
+
+#hireMe {
+    color: white;
+    border: 1px solid white;
+    padding: 1rem;
+    margin: 0.8rem;
+    border-radius: 2rem;  
+    cursor: pointer;
+}
+
+#hireMe {
+    background-color: white;
+    color: #121212;
+    font-size: 1.1rem;
+    font-weight: 700;
+    transition: 0.5s;
+
+}
+
+#hireMe:hover {
+    background-color: #D1D5DB;
+    color: white;
+}
+
+#DownloadCV {
+    color: white;
+    border: 1px solid white;
+    padding: 1rem;
+    margin: 0.8rem;
+    border-radius: 2rem;  
+    cursor: pointer;
+    transition: background-color 1s, color 1s;
+}
+
+#DownloadCV:hover {
+    background-color: white;
+    color: black;
+}
